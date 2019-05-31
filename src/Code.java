@@ -97,6 +97,7 @@ public class Code {
 
     }
 
+
     // 输出函数
     public static String out(Double[] temp) {
 
