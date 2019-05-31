@@ -15,6 +15,7 @@ import static java.util.concurrent.TimeUnit.NANOSECONDS;
  * @Date 2019/5/30 12:27 AM
  * @Version 1.0
  */
+
 // Delayed接口用来标记那些应该在给定延迟后执行的任务
 class DelayTask implements Runnable, Delayed {
 
@@ -103,10 +104,7 @@ class DelayedTaskConsumer implements Runnable {
         System.out.println("Finished DelayedTaskConsumer");
     }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> initial commit
 public class DelayQueueDemo {
 
     public static void main(String[] args) {

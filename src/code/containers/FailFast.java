@@ -10,14 +10,11 @@
 
 package code.containers;
 
-<<<<<<< HEAD
-import java.util.*;
-=======
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
->>>>>>> initial commit
+
 
 // 快速报错，不是使用复杂的算法在时候来检查问题
 // 探查容器上的任何除了你的进程所进行的操作以外的所有变化，一旦发现其他进程修改了容器，就会抛出ConcurrentModificationException

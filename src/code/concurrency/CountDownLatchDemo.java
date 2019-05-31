@@ -12,14 +12,8 @@ package code.concurrency;
 
 
 import java.util.Random;
-<<<<<<< HEAD
 import java.util.concurrent.*;
-=======
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
->>>>>>> initial commit
+
 
 
 // 某些需要先于waitingTask执行的任务

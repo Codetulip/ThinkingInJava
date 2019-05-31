@@ -42,11 +42,8 @@ public class Parcel2 {
     }
 
     public static void main(String[] args) {
-<<<<<<< HEAD
        Parcel2.Contents c = new Parcel2.Contents(); // 外部类和本类皆可使用方法
-=======
-       Contents c = new Contents(); // 外部类和本类皆可使用方法
->>>>>>> initial commit
+//       Contents c = new Contents(); // 外部类和本类皆可使用方法
        Contents c2 = new Contents(); // 仅限本类中使用方法
        PDestination p = destination();
        Parcel2 parcel2 = new Parcel2();

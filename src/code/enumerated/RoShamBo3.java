@@ -1,12 +1,9 @@
 package code.enumerated;
 
-<<<<<<< HEAD
 import static code.enumerated.Outcome.DRAW;
 import static code.enumerated.Outcome.LOSE;
 import static code.enumerated.Outcome.WIN;
-=======
-import static code.enumerated.Outcome.*;
->>>>>>> initial commit
+
 
 /**
  * @Classname RoShamBo3
