@@ -41,6 +41,7 @@ public class ProcessFiles {
 
     /**
      * 文件处理程序
+     *
      * @param args 文件参数
      */
     public void start(String[] args) {
@@ -70,11 +71,7 @@ public class ProcessFiles {
     }
 
     public static void main(String[] args) {
-<<<<<<< HEAD
-        new ProcessFiles(new ProcessFiles.Strategy() {
-=======
         new ProcessFiles(new Strategy() {
->>>>>>> initial commit
             @Override
             public void process(File file) {
                 System.out.println(file);
