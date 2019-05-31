@@ -167,6 +167,7 @@ class Eater implements Runnable {
         System.out.println("Eater off");
     }
 }
+
 public class ToastOMatic {
 
     public static void main(String[] args) throws Exception {

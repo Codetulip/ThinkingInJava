@@ -67,8 +67,8 @@ public class SimpleHashMap<K, V> extends AbstractMap<K, V> {
 
     // 无法用于通用的Map
     @Override
-    public Set<Map.Entry<K, V>> entrySet() {
-        Set<Map.Entry<K, V>> entries = new HashSet<Map.Entry<K, V>>();
+    public Set<Entry<K, V>> entrySet() {
+        Set<Entry<K, V>> entries = new HashSet<Entry<K, V>>();
         for (LinkedList<MapEntry<K, V>> bucket : buckets) {
             if (bucket == null) continue;
             for (MapEntry<K, V> mapEntry : bucket)

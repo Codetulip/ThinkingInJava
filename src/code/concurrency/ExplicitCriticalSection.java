@@ -49,6 +49,10 @@ class ExplicitPairManager2 extends PairManager {
         store(temp);
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> initial commit
 public class ExplicitCriticalSection {
 
     public static void main(String[] args) {

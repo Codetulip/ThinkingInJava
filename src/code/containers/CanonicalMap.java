@@ -49,6 +49,10 @@ class Value extends Element {
         super(id);
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> initial commit
 // 利用WeakHashMap保存WeakReference
 public class CanonicalMap {
 

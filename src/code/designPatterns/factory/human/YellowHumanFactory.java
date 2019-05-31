@@ -7,7 +7,7 @@ package code.designPatterns.factory.human;
  * @Date 2019/5/21 11:58 PM
  * @Version 1.0
  */
-public class YellowHumanFactory extends AbstractHumanFactory1{
+public class YellowHumanFactory extends AbstractHumanFactory1 {
     @Override
     public Human createHuman() {
         return new YellowHuman();

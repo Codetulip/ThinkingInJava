@@ -70,7 +70,11 @@ public class ProcessFiles {
     }
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         new ProcessFiles(new ProcessFiles.Strategy() {
+=======
+        new ProcessFiles(new Strategy() {
+>>>>>>> initial commit
             @Override
             public void process(File file) {
                 System.out.println(file);
