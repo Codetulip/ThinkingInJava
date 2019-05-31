@@ -112,7 +112,7 @@ public class Code {
     public static void main(String[] args) throws Exception {
 
         // 输出到txt文件
-        FileWriter writer = new FileWriter("C:\\Users\\Code\\Desktop\\code.txt", true);
+        FileWriter writer = new FileWriter("/Users/tujing/code.txt", true);
         for (int i = 0; i < 50; i++) {
             Double[] temp = generateSet();
             writer.write(out(temp)+"\r\n");
