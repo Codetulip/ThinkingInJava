@@ -4,7 +4,7 @@ import java.lang.reflect.Constructor;
 
 /**
  * @Classname SingletonFactory
- * @Description
+ * @Description 利用反射创建单例
  * @Author tujing
  * @Date 2019/5/22 12:06 AM
  * @Version 1.0
