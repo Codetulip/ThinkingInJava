@@ -22,9 +22,9 @@ public class Son extends Father {
 
     // point 2
     // 缩小输入参数类型
-    public Collection doSomething(HashMap map) { // 重载并非覆盖
+    public Collection doSomething(HashMap map) {
         // 子类在没有覆盖父类方法的前提下，里式替换原则要求子类写的方法是不会调用的
-         // point 2这种情况下会导致子类没有覆盖父类方法，但是依然执行了
+        // point 2这种情况下会导致子类没有覆盖父类方法，但是依然执行了
         System.out.println("子类被执行...");
         return map.values();
     }
