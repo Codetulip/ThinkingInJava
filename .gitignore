@@ -1,6 +1,7 @@
 # IDEA files
 *.iml
 out/*
+src/code/test/*
 .idea/*
 
 # Compiled class file
