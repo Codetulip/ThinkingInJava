@@ -24,6 +24,7 @@ public class CopyingArrays {
         // 源数组，源数组起始位置，目标数组，目标数组起始位置，复制数量（从源数组起始位置往后）
         // 任何越界操作都会导致异常，包括最后设置的复制数量
         // System.arraycopy()不会自动拆/装包
+        // System.arraycopy()是原生方法，复制数组效率最高
         System.arraycopy(i, 0, j, 0, i.length);
         System.out.println("j = " + Arrays.toString(j));
         int[] k = new int[5];
@@ -45,6 +46,8 @@ public class CopyingArrays {
         System.out.println(Arrays.equals(s1, s2));
         // 复制s1中所有元素到strings,并重新定义新数组的大小
         // ArrayList的底层实现
+        // Arrays.copyOf()方法底层还是使用的System.arraycopy()因此效率没有System.arraycopy()高
+        // clone()方法效率最低
         String[] strings = Arrays.copyOf(s1, 10);
         System.out.println(Arrays.toString(strings));
     }
