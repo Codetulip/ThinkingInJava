@@ -17,6 +17,7 @@ public interface Iterator {
 
     // 删除当前指向的元素
     default void remove() {
+        // 迭代器删除方法应该完成两个逻辑，一个是删除当前元素，而是当前游标指向下一个元素
         throw new UnsupportedOperationException();
     }
 }
