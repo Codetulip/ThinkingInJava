@@ -124,7 +124,7 @@ public final class Directory {
 
     public static void main(String[] args) throws IOException {
         int line = 0;
-        TreeInfo code = walk("/Users/tujing/java/ideaProjects/thinkingInJava/src/", "\\w*\\.java");
+        TreeInfo code = walk("/Users/code/java/ideaProjects/thinkingInJava/src/", "\\w*\\.java");
         for (File file : code.files) {
             line += caculateLine(file);
         }
