@@ -2,11 +2,11 @@
 *.iml
 out/*
 src/code/test/*
+src/code/sort/*
 .idea/*
 
 # Compiled class file
 *.class
-
 # Log file
 *.log
 
