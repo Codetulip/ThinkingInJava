@@ -1,4 +1,4 @@
-package code.test;
+package code.sort;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @Classname BubbleSort
  * @Description 冒泡排序
  * @Author codetulip
- * @Date 2019/8/29 21:13
+ * @Date 2019/8/29 22:09
  * @Version 1.0
  */
 public class BubbleSort {
