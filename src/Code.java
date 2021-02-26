@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * FileName: code
- * Author:   Code
+ * @author:   Code
  * Date:     2019/4/12 20:56
  * Description: 训练集
  * History:

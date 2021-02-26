@@ -1,8 +1,8 @@
 # IDEA files
 *.iml
 out/*
-src/code/test/*
-src/code/sort/*
+src/com/code/tulip/thinking_in_java/test/*
+src/com/code/tulip/thinking_in_java/sort/*
 .idea/*
 
 # Compiled class file
